@@ -1,7 +1,7 @@
 # ⚙️ JARVIS (54)
 ### The Ultimate Cross-Platform Personal AI Assistant — By Gopal Budhathoki ⚡
 
-> 📸 **[Follow Gopal Budhathoki on Instagram](https://www.facebook.com/goapal.budhathoki)**
+> 📸 **[Follow Gopal Budhathoki on Facebook](https://www.facebook.com/goapal.budhathoki)**
 
 A real-time voice AI that can hear, see, speak, and control your computer — on any OS. Supports Windows, macOS, and Linux. Built on the Gemini Live API for native audio streaming, delivering zero subscriptions and total digital autonomy.
 
