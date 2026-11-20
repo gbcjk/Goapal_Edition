@@ -1,7 +1,7 @@
 [app]
 
 # (str) Title of your application
-title = MARK LIV
+title = JARVIS
 
 # (str) Package name
 package.name = markliv

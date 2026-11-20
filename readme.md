@@ -1,7 +1,7 @@
-# ⚙️ MARK LIV (54)
-### The Ultimate Cross-Platform Personal AI Assistant — By Kashur Engineer ⚡
+# ⚙️ JARVIS (54)
+### The Ultimate Cross-Platform Personal AI Assistant — By Gopal Budhathoki ⚡
 
-> 📸 **[Follow Kashur Engineer on Instagram](https://www.instagram.com/kashurengineer/)**
+> 📸 **[Follow Gopal Budhathoki on Instagram](https://www.facebook.com/goapal.budhathoki)**
 
 A real-time voice AI that can hear, see, speak, and control your computer — on any OS. Supports Windows, macOS, and Linux. Built on the Gemini Live API for native audio streaming, delivering zero subscriptions and total digital autonomy.
 
@@ -9,13 +9,13 @@ A real-time voice AI that can hear, see, speak, and control your computer — on
 
 ## ✨ Overview
 
-**MARK LIV is the release where JARVIS gets a face.** A holographic head sits at the centre of the HUD and **speaks your assistant's words with real lip-sync** — not a jaw flapping to the volume meter, but actual mouth shapes: lips closing on *m*, *b*, *p*, spreading on *i*, rounding on *u*. Brows ride the sentence, the eyes flick between fixation points, and it blinks. Turn the sound down and you can follow roughly what it just said.
+**JARVIS is the release where JARVIS gets a face.** A holographic head sits at the centre of the HUD and **speaks your assistant's words with real lip-sync** — not a jaw flapping to the volume meter, but actual mouth shapes: lips closing on *m*, *b*, *p*, spreading on *i*, rounding on *u*. Brows ride the sentence, the eyes flick between fixation points, and it blinks. Turn the sound down and you can follow roughly what it just said.
 
 It ships as **zero extra dependencies and one 25 KB asset**. The face is real measured human geometry; everything else — the skull, the rig, the lighting — is generated at startup and drawn in software, so it looks identical on a gaming rig and a 2013 laptop, with no GPU driver in the loop.
 
 The face is also the fastest status indicator in the app: it looks away while thinking, meets your eyes while listening, and lets its lids fall while asleep.
 
-Underneath, Mark LIV rebuilt how the assistant knows itself — what it is, what machine it runs on, what it can do and, new, **what it cannot do** — all assembled from the live system at session start rather than written into a prompt that goes stale.
+Underneath, JARVIS rebuilt how the assistant knows itself — what it is, what machine it runs on, what it can do and, new, **what it cannot do** — all assembled from the live system at session start rather than written into a prompt that goes stale.
 
 It's not just an assistant — it's an extension of your digital life.
 
@@ -80,7 +80,7 @@ It's not just an assistant — it's an extension of your digital life.
 
 ---
 
-## 🆕 What's New in Mark LIV
+## 🆕 What's New in JARVIS
 
 No hardcoded language, no GPU requirement, no new dependencies — identical on Windows, macOS and Linux.
 
@@ -132,7 +132,7 @@ On **Windows** the chord is genuinely global: it works while any other applicati
 #### 🔇 It no longer talks itself into replying
 Writing audio to a device returns when the buffer *accepts* the sound, not when the speaker has finished with it — so for a moment after a reply "ends", it is still in the room. Streaming the microphone during that gap is how an assistant hears its own last sentence, decides it was addressed, and answers itself.
 
-Mark LIV holds a guard open across that gap, sized from the **device's own reported latency** rather than a guessed constant, so a machine with a large audio buffer gets a longer guard and one with a small buffer is not penalised. The microphone is **not muted** during it: both streams are reduced to band energies and as much of what was just played is subtracted from the microphone as fits, so only your assistant's own voice is dropped — replying the instant it stops still works.
+JARVIS holds a guard open across that gap, sized from the **device's own reported latency** rather than a guessed constant, so a machine with a large audio buffer gets a longer guard and one with a small buffer is not penalised. The microphone is **not muted** during it: both streams are reduced to band energies and as much of what was just played is subtracted from the microphone as fits, so only your assistant's own voice is dropped — replying the instant it stops still works.
 
 > Interrupting it mid-sentence by voice is built on the same machinery and is deliberately **switched off** in this release. It depends too much on the listener's room to ship without testing on real hardware.
 
@@ -284,7 +284,7 @@ It is held in memory only, deliberately: writing it to disk would make a fresh l
    cd updated-Jarvis-by-Kashur-Engineer-
    ```
 2. Double-click **`run.bat`**.
-   - It will automatically set up the virtual environment, install requirements, and launch MARK LIV.
+   - It will automatically set up the virtual environment, install requirements, and launch JARVIS.
 3. On first launch, enter your free Gemini API key from [Google AI Studio](https://aistudio.google.com/app/apikey) and click **`▸ INITIALISE SYSTEMS`**.
 
 ---
@@ -305,7 +305,7 @@ source .venv/bin/activate
 # 3. Install OS-tailored dependencies
 python setup.py
 
-# 4. Start MARK LIV
+# 4. Start JARVIS
 python main.py
 ```
 
@@ -313,7 +313,7 @@ python main.py
 
 ## 🎙️ How to Use & Voice Commands Reference
 
-You can talk to MARK LIV naturally in **any language** (English, Hindi, Urdu, Kashmiri, etc.) or type in the bottom command input.
+You can talk to JARVIS naturally in **any language** (English, Hindi, Urdu, Kashmiri, etc.) or type in the bottom command input.
 
 ### 🌟 Example Voice Commands
 
@@ -362,7 +362,7 @@ You can talk to MARK LIV naturally in **any language** (English, Hindi, Urdu, Ka
 ## 🗂️ Project Structure
 
 ```
-Mark LIV/
+JARVIS/
 ├── main.py                   # Core loop — Gemini Live session, audio I/O, tool dispatch
 ├── ui.py                     # PyQt6 HUD — Ultron Core, waveform, log panel, settings drawer
 ├── setup.py                  # OS-aware installer (checks Python & installs dependencies)
@@ -389,11 +389,12 @@ Everything stays on your machine. There is no external server, no telemetry, and
 
 ## 👤 Connect with the Creator
 
-⚡ **MARK LIV - Custom Edition by Kashur Engineer**
+⚡ **JARVIS - Custom Edition by Gopal Budhathoki**
 
 ⭐ **Star the repository to support the project!**
 
 | Platform | Link |
 | --- | --- |
-| 📸 Instagram | **[@kashurengineer](https://www.instagram.com/kashurengineer/)** |
+| 📸 Instagram | **[@kashurengineer](https://www.facebook.com/goapal.budhathoki)** |
 | 🐙 GitHub | **[@Zahidcse68](https://github.com/Zahidcse68)** |
+"# Goapal_Edition" 

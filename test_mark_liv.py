@@ -1,5 +1,5 @@
 """
-Comprehensive test suite for MARK LIV components.
+Comprehensive test suite for JARVIS components.
 Tests module loading, action registry, avatar geometry, memory management, and audio device detection.
 """
 import sys
@@ -28,7 +28,7 @@ def run_test(name, test_func):
         results.append((name, False, str(e)))
 
 print("=" * 60)
-print("  MARK LIV COMPONENT TEST SUITE")
+print("  JARVIS COMPONENT TEST SUITE")
 print("=" * 60)
 
 # 1. Config Manager Test

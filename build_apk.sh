@@ -1,6 +1,6 @@
 #!/bin/bash
 # ==============================================================================
-# MARK LIV — 1-Click Android APK Build Script (Buildozer / Kivy)
+# JARVIS — 1-Click Android APK Build Script (Buildozer / Kivy)
 # Run this in Google Colab (https://colab.research.google.com) or Ubuntu Linux
 # ==============================================================================
 

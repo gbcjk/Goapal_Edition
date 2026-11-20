@@ -1,7 +1,7 @@
 """
-mobile_app.py — MARK LIV Android Mobile Edition
+mobile_app.py — JARVIS Android Mobile Edition
 Powered by Kivy and Google Gemini Live API
-Engineered by Kashur Engineer
+Engineered by Gopal Budhathoki
 """
 
 import math
@@ -109,7 +109,7 @@ class UltronMobileCore(Widget):
 
 class MarkLIVMobileApp(App):
     def build(self):
-        self.title = "MARK LIV — Assistant"
+        self.title = "JARVIS — Assistant"
         self.api_key = load_api_key()
 
         # Request Android runtime permissions
@@ -120,7 +120,7 @@ class MarkLIVMobileApp(App):
 
         # Header
         header = BoxLayout(orientation='horizontal', size_hint=(1, 0.08), pos_hint={'top': 1}, padding=[15, 5])
-        title_lbl = Label(text="⚡ [b]MARK LIV[/b] — Ultron Core", markup=True, color=(0.0, 0.83, 1.0, 1), font_size='18sp')
+        title_lbl = Label(text="⚡ [b]JARVIS[/b] — Ultron Core", markup=True, color=(0.0, 0.83, 1.0, 1), font_size='18sp')
         header.addWidget(title_lbl)
 
         settings_btn = Button(text="⚙️", size_hint=(None, 1), width=50, background_color=(0.0, 0.2, 0.3, 0.8))
@@ -145,7 +145,7 @@ class MarkLIVMobileApp(App):
         # Activity Log Box
         log_scroll = ScrollView(size_hint=(0.9, 0.2), pos_hint={'center_x': 0.5, 'center_y': 0.25})
         self.log_lbl = Label(
-            text="[JARVIS] System initialized. Ready for voice commands.\nBy Kashur Engineer (@kashurengineer)",
+            text="[JARVIS] System initialized. Ready for voice commands.\nBy Gopal Budhathoki (@kashurengineer)",
             color=(0.7, 0.85, 0.9, 0.9),
             font_size='12sp',
             size_hint_y=None

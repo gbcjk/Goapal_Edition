@@ -1,9 +1,9 @@
 @echo off
-title MARK LIV Launcher
+title JARVIS Launcher
 cd /d "%~dp0"
 
 echo ===================================================
-echo   Starting MARK LIV (JARVIS AI Assistant)...
+echo   Starting JARVIS (JARVIS AI Assistant)...
 echo ===================================================
 
 set PYTHONIOENCODING=utf-8

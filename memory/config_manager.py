@@ -184,7 +184,7 @@ def get_hud_style() -> str:
     """Which centrepiece the HUD draws: the animated head, or the reactor core.
 
     Taste, not capability — both render in the same software painter and cost
-    about the same. Defaults to the head because that is what MARK LIV shipped
+    about the same. Defaults to the head because that is what JARVIS shipped
     with; anyone who preferred the older look can switch back in ⚙ and the
     choice survives a restart.
     """
@@ -439,4 +439,4 @@ def get_hud_style() -> str:
 def save_hud_style(style: str) -> None:
     """Persist the selected HUD visual style ('face' or 'core')."""
     s = "core" if str(style).strip().lower() == "core" else "face"
-    _patch_config(hud_style=s)
+    _patch_config(hud_style=s)
